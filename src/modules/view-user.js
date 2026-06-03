@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import w1 from "../assets/img/w1.jpg";
 import w2 from "../assets/img/w2.webp";
@@ -59,7 +58,7 @@ function ViewUsers() {
 
                     <tr>
                       <td>201</td>
-                      <td><img src={w1} width="50" /></td>
+                      <td><img src={w1} width="50" alt="John Smith" /></td>
                       <td>John Smith</td>
                       <td>Admin</td>
                       <td>john@example.com</td>
@@ -75,7 +74,7 @@ function ViewUsers() {
 
                     <tr>
                       <td>202</td>
-                      <td><img src={w2} width="50" /></td>
+                      <td><img src={w2} width="50" alt="Priya Sharma" /></td>
                       <td>Priya Sharma</td>
                       <td>Customer</td>
                       <td>priya@gmail.com</td>
@@ -91,7 +90,7 @@ function ViewUsers() {
 
                     <tr>
                       <td>203</td>
-                      <td><img src={w4} width="50" /></td>
+                      <td><img src={w4} width="50" alt="Rahul Mehta" /></td>
                       <td>Rahul Mehta</td>
                       <td>Manager</td>
                       <td>rahul@gmail.com</td>
@@ -107,7 +106,7 @@ function ViewUsers() {
 
                     <tr>
                       <td>204</td>
-                      <td><img src={w5} width="50" /></td>
+                      <td><img src={w5} width="50" alt="Anjali Patel" /></td>
                       <td>Anjali Patel</td>
                       <td>Customer</td>
                       <td>anjali@gmail.com</td>
@@ -123,7 +122,7 @@ function ViewUsers() {
 
                     <tr>
                       <td>205</td>
-                      <td><img src={user4} width="50" /></td>
+                      <td><img src={user4} width="50" alt="David Roy" /></td>
                       <td>David Roy</td>
                       <td>Staff</td>
                       <td>david@gmail.com</td>
@@ -139,7 +138,7 @@ function ViewUsers() {
 
                     <tr>
                       <td>206</td>
-                      <td><img src={user5} width="50" /></td>
+                      <td><img src={user5} width="50" alt="Jhon Kim" /></td>
                       <td>Jhon Kim</td>
                       <td>Customer</td>
                       <td>Jhon@gmail.com</td>
@@ -155,7 +154,7 @@ function ViewUsers() {
 
                     <tr>
                       <td>207</td>
-                      <td><img src={user6} width="50" /></td>
+                      <td><img src={user6} width="50" alt="Prakriti Verma" /></td>
                       <td>Prakriti Verma</td>
                       <td>Staff</td>
                       <td>Prakriti@gmail.com</td>
@@ -171,7 +170,7 @@ function ViewUsers() {
 
                     <tr>
                       <td>208</td>
-                      <td><img src={w2} width="50" /></td>
+                      <td><img src={w2} width="50" alt="sneha iyer" /></td>
                       <td>Sneha Iyer</td>
                       <td>Manager</td>
                       <td>sneha@gmail.com</td>
@@ -187,7 +186,7 @@ function ViewUsers() {
 
                     <tr>
                       <td>209</td>
-                      <td><img src={user4} width="50" /></td>
+                      <td><img src={user4} width="50" alt="Rohan shah" /></td>
                       <td>Rohan Shah</td>
                       <td>Customer</td>
                       <td>rohan@gmail.com</td>
@@ -203,7 +202,7 @@ function ViewUsers() {
 
                     <tr>
                       <td>210</td>
-                      <td><img src={w4} width="50" /></td>
+                      <td><img src={w4} width="50" alt="Karan Malhotra" /></td>
                       <td>Karan Malhotra</td>
                       <td>Admin</td>
                       <td>karan@gmail.com</td>
@@ -219,7 +218,7 @@ function ViewUsers() {
 
                     <tr>
                       <td>211</td>
-                      <td><img src={w1} width="50" /></td>
+                      <td><img src={w1} width="50" alt="pooja desai" /></td>
                       <td>Pooja Desai</td>
                       <td>Customer</td>
                       <td>pooja@gmail.com</td>
@@ -235,7 +234,7 @@ function ViewUsers() {
 
                     <tr>
                       <td>212</td>
-                      <td><img src={w5} width="50" /></td>
+                      <td><img src={user5} width="50" alt="Arjun nair" /></td>
                       <td>Arjun Nair</td>
                       <td>Staff</td>
                       <td>arjun@gmail.com</td>
