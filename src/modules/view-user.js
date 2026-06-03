@@ -234,7 +234,7 @@ function ViewUsers() {
 
                     <tr>
                       <td>212</td>
-                      <td><img src={user5} width="50" alt="Arjun nair" /></td>
+                      <td><img src={w5} width="50" alt="Arjun nair" /></td>
                       <td>Arjun Nair</td>
                       <td>Staff</td>
                       <td>arjun@gmail.com</td>
