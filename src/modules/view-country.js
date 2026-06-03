@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import inFlag from "../assets/img/in.webp";
 import usFlag from "../assets/img/usa.png";
