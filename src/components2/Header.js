@@ -6,7 +6,7 @@ function Header(){
           <header id="header" className="header fixed-top d-flex align-items-center">
 
         <div className="d-flex align-items-center justify-content-between">
-            <a href="index.html" class="logo d-flex align-items-center">
+            <a href="index.html" className="logo d-flex align-items-center">
                 <img src="assets/img/logo.png" alt=""/>
                 <span className="d-none d-lg-block">NiceAdmin</span>
             </a>
@@ -16,7 +16,7 @@ function Header(){
         <div className="search-bar">
             <form className="search-form d-flex align-items-center" method="POST" action="#">
                 <input type="text" name="query" placeholder="Search" title="Enter search keyword"/>
-                <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+                <button type="submit" title="Search"><i className="bi bi-search"></i></button>
             </form>
         </div>
 
@@ -24,23 +24,37 @@ function Header(){
             <ul className="d-flex align-items-center">
 
                 <li className="nav-item d-block d-lg-none">
-                    <a className="nav-link nav-icon search-bar-toggle " href="#">
+                    <a
+                      className="nav-link nav-icon search-bar-toggle"
+                      href="#!"
+                      onClick={(e) => e.preventDefault()}
+                    >
                         <i className="bi bi-search"></i>
                     </a>
                 </li>
 
-                <li className="nav-item dropdown">
+               <li className="nav-item dropdown">
 
-                    <a className="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
-                        <i className="bi bi-bell"></i>
-                        <span className="badge bg-primary badge-number">4</span>
-                    </a>
+  <a
+    className="nav-link nav-icon"
+    href="#!"
+    onClick={(e) => e.preventDefault()}
+    data-bs-toggle="dropdown"
+  >
+    <i className="bi bi-bell"></i>
+    <span className="badge bg-primary badge-number">4</span>
+  </a>
 
-                    <ul className="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
-                        <li className="dropdown-header">
-                            You have 4 new notifications
-                            <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
-                        </li>
+  <ul className="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
+    <li className="dropdown-header">
+      You have 4 new notifications
+      <a href="#!" onClick={(e) => e.preventDefault()}>
+        <span className="badge rounded-pill bg-primary p-2 ms-2">
+          View all
+        </span>
+      </a>
+    </li>
+
                         <li>
                             <hr className="dropdown-divider"/>
                         </li>
@@ -97,7 +111,9 @@ function Header(){
                             <hr className="dropdown-divider"/>
                         </li>
                         <li className="dropdown-footer">
-                            <a href="#">Show all notifications</a>
+                            <a href="#!" onClick={(e) => e.preventDefault()}>
+                              Show all notifications
+                            </a>
                         </li>
 
                     </ul>
@@ -106,7 +122,12 @@ function Header(){
 
                 <li className="nav-item dropdown">
 
-                    <a className="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+                    <a
+                      className="nav-link nav-icon"
+                      href="#!"
+                      data-bs-toggle="dropdown"
+                      onClick={(e) => e.preventDefault()}
+                    >
                         <i className="bi bi-chat-left-text"></i>
                         <span className="badge bg-success badge-number">3</span>
                     </a>
@@ -114,15 +135,19 @@ function Header(){
                     <ul className="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
                         <li className="dropdown-header">
                             You have 3 new messages
-                            <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+                            <a href="#!" onClick={(e) => e.preventDefault()}>
+                              <span className="badge rounded-pill bg-primary p-2 ms-2">
+                                View all
+                              </span>
+                            </a>
                         </li>
                         <li>
                             <hr className="dropdown-divider"/>
                         </li>
 
                         <li className="message-item">
-                            <a href="#">
-                                <img src="assets/img/messages-1.jpg" alt="" class="rounded-circle"/>
+                            <a href="#!" onClick={(e) => e.preventDefault()}>
+                                <img src="assets/img/messages-1.jpg" alt="" className="rounded-circle"/>
                                 <div>
                                     <h4>Maria Hudson</h4>
                                     <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
@@ -130,13 +155,14 @@ function Header(){
                                 </div>
                             </a>
                         </li>
+
                         <li>
                             <hr className="dropdown-divider"/>
                         </li>
 
                         <li className="message-item">
-                            <a href="#">
-                                <img src="assets/img/messages-2.jpg" alt="" class="rounded-circle"/>
+                            <a href="#!" onClick={(e) => e.preventDefault()}>
+                                <img src="assets/img/messages-2.jpg" alt="" className="rounded-circle"/>
                                 <div>
                                     <h4>Anna Nelson</h4>
                                     <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
@@ -144,13 +170,14 @@ function Header(){
                                 </div>
                             </a>
                         </li>
+
                         <li>
                             <hr className="dropdown-divider"/>
                         </li>
 
                         <li className="message-item">
-                            <a href="#">
-                                <img src="assets/img/messages-3.jpg" alt="" class="rounded-circle"/>
+                            <a href="#!" onClick={(e) => e.preventDefault()}>
+                                <img src="assets/img/messages-3.jpg" alt="" className="rounded-circle"/>
                                 <div>
                                     <h4>David Muldon</h4>
                                     <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
@@ -158,12 +185,15 @@ function Header(){
                                 </div>
                             </a>
                         </li>
+
                         <li>
                             <hr className="dropdown-divider"/>
                         </li>
 
                         <li className="dropdown-footer">
-                            <a href="#">Show all messages</a>
+                            <a href="#!" onClick={(e) => e.preventDefault()}>
+                              Show all messages
+                            </a>
                         </li>
 
                     </ul>
@@ -172,8 +202,12 @@ function Header(){
 
                 <li className="nav-item dropdown pe-3">
 
-                    <a className="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-                        <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle"/>
+                    <a
+                      className="nav-link nav-profile d-flex align-items-center pe-0"
+                      href="#!"
+                      data-bs-toggle="dropdown"
+                    >
+                        <img src="assets/img/profile-img.jpg" alt="Profile" className="rounded-circle"/>
                         <span className="d-none d-md-block dropdown-toggle ps-2">K. Anderson</span>
                     </a>
 
@@ -192,6 +226,7 @@ function Header(){
                                 <span>My Profile</span>
                             </a>
                         </li>
+
                         <li>
                             <hr className="dropdown-divider"/>
                         </li>
@@ -202,6 +237,7 @@ function Header(){
                                 <span>Account Settings</span>
                             </a>
                         </li>
+
                         <li>
                             <hr className="dropdown-divider"/>
                         </li>
@@ -212,12 +248,13 @@ function Header(){
                                 <span>Need Help?</span>
                             </a>
                         </li>
+
                         <li>
                             <hr className="dropdown-divider"/>
                         </li>
 
                         <li>
-                            <a className="dropdown-item d-flex align-items-center" href="#">
+                            <a className="dropdown-item d-flex align-items-center" href="#!">
                                 <i className="bi bi-box-arrow-right"></i>
                                 <span>Sign Out</span>
                             </a>
@@ -233,4 +270,5 @@ function Header(){
         </>
     )
 }
+
 export default Header;
