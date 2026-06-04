@@ -63,7 +63,7 @@ function ViewCategory() {
 
                     <tr>
                       <td>1</td>
-                      <td><img src={f1} width="50" className="rounded" /></td>
+                      <td><img src={f1} width="50" className="rounded" alt="Fashion" /></td>
                       <td>Fashion</td>
                       <td>FASH-001</td>
                       <td>-</td>
@@ -79,7 +79,7 @@ function ViewCategory() {
 
                     <tr>
                       <td>2</td>
-                      <td><img src={h2} width="50" className="rounded" /></td>
+                      <td><img src={h2} width="50" className="rounded" alt="High Jewellery"/></td>
                       <td>High Jewellery</td>
                       <td>HJ-002</td>
                       <td>Jewellery</td>
@@ -95,7 +95,7 @@ function ViewCategory() {
 
                     <tr>
                       <td>3</td>
-                      <td><img src={wa1} width="50" className="rounded" /></td>
+                      <td><img src={wa1} width="50" className="rounded" alt="Watches"/></td>
                       <td>Watches</td>
                       <td>WATCH-003</td>
                       <td>-</td>
@@ -111,7 +111,7 @@ function ViewCategory() {
 
                     <tr>
                       <td>4</td>
-                      <td><img src={skin} width="50" className="rounded" /></td>
+                      <td><img src={skin} width="50" className="rounded" alt="Beauty" /></td>
                       <td>Beauty</td>
                       <td>BEAUTY-004</td>
                       <td>-</td>
@@ -127,7 +127,7 @@ function ViewCategory() {
 
                     <tr>
                       <td>5</td>
-                      <td><img src={glasses} width="50" className="rounded" /></td>
+                      <td><img src={glasses} width="50" className="rounded" alt="Eyewear" /></td>
                       <td>Eyewear</td>
                       <td>EYE-005</td>
                       <td>Fashion</td>
@@ -143,7 +143,7 @@ function ViewCategory() {
 
                     <tr>
                       <td>6</td>
-                      <td><img src={perfume} width="50" className="rounded" /></td>
+                      <td><img src={perfume} width="50" className="rounded" alt="Fragrances" /></td>
                       <td>Fragrances</td>
                       <td>FRAG-006</td>
                       <td>Beauty</td>
@@ -159,7 +159,7 @@ function ViewCategory() {
 
                     <tr>
                       <td>7</td>
-                      <td><img src={skin} width="50" className="rounded" /></td>
+                      <td><img src={skin} width="50" className="rounded" alt="Skincare" /></td>
                       <td>Skincare</td>
                       <td>SKIN-007</td>
                       <td>Beauty</td>
@@ -175,7 +175,7 @@ function ViewCategory() {
 
                     <tr>
                       <td>8</td>
-                      <td><img src={pro4} width="50" className="rounded" /></td>
+                      <td><img src={pro4} width="50" className="rounded" alt="Makeups" /></td>
                       <td>Makeups</td>
                       <td>MAKE-008</td>
                       <td>Beauty</td>
@@ -191,7 +191,7 @@ function ViewCategory() {
 
                     <tr>
                       <td>9</td>
-                      <td><img src={fi1} width="50" className="rounded" /></td>
+                      <td><img src={fi1} width="50" className="rounded" alt="Fine Jewellery"/></td>
                       <td>Fine Jewellery</td>
                       <td>RING-009</td>
                       <td>Jewellery</td>
@@ -207,7 +207,7 @@ function ViewCategory() {
 
                     <tr>
                       <td>10</td>
-                      <td><img src={pro6} width="50" className="rounded" /></td>
+                      <td><img src={pro6} width="50" className="rounded" alt="Luxury Handbags" /></td>
                       <td>Fashion</td>
                       <td>BAG-010</td>
                       <td>Fashion</td>
@@ -223,7 +223,7 @@ function ViewCategory() {
 
                     <tr>
                       <td>11</td>
-                      <td><img src={skin} width="50" className="rounded" /></td>
+                      <td><img src={skin} width="50" className="rounded" alt="Velvate Matte Lipsticks" /></td>
                       <td>Velvate Matte Lipsticks</td>
                       <td>Skin-011</td>
                       <td>Skincare</td>
@@ -239,7 +239,7 @@ function ViewCategory() {
 
                     <tr>
                       <td>12</td>
-                      <td><img src={h5} width="50" className="rounded" /></td>
+                      <td><img src={h5} width="50" className="rounded" alt="Necklace" /></td>
                       <td>Necklace</td>
                       <td>High-012</td>
                       <td>High Jewellery</td>

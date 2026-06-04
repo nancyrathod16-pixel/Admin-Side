@@ -62,7 +62,7 @@ function ViewProducts() {
 
                     <tr>
                       <td>101</td>
-                      <td><img src={pro6} width="50" className="rounded" /></td>
+                      <td><img src={pro6} width="50" className="rounded" alt="Luxury Handbag" /></td>
                       <td>Luxury Handbag</td>
                       <td>Fashion</td>
                       <td>$2,500</td>
@@ -78,7 +78,7 @@ function ViewProducts() {
 
                     <tr>
                       <td>102</td>
-                      <td><img src={h1} width="50" className="rounded" /></td>
+                      <td><img src={h1} width="50" className="rounded" alt="Diamond Necklace" /></td>
                       <td>Diamond Necklace</td>
                       <td>High Jewellery</td>
                       <td>$5,200</td>
@@ -94,7 +94,7 @@ function ViewProducts() {
 
                     <tr>
                       <td>103</td>
-                      <td><img src={wa1} width="50" className="rounded" /></td>
+                      <td><img src={wa1} width="50" className="rounded" alt="Luxury Watch" /></td>
                       <td>Luxury Watch</td>
                       <td>Watches</td>
                       <td>$7,500</td>
@@ -110,7 +110,7 @@ function ViewProducts() {
 
                     <tr>
                       <td>104</td>
-                      <td><img src={f3} width="50" className="rounded" /></td>
+                      <td><img src={f3} width="50" className="rounded" alt="Coat" /></td>
                       <td>Coat</td>
                       <td>Fashion</td>
                       <td>$5,000</td>
@@ -126,7 +126,7 @@ function ViewProducts() {
 
                     <tr>
                       <td>105</td>
-                      <td><img src={h7} width="50" /></td>
+                      <td><img src={h7} width="50" alt="Gold Bracelet" /></td>
                       <td>Gold Bracelet</td>
                       <td>Fine Jewellery</td>
                       <td>$4,500</td>
@@ -142,7 +142,7 @@ function ViewProducts() {
 
                     <tr>
                       <td>106</td>
-                      <td><img src={glasses} width="50" /></td>
+                      <td><img src={glasses} width="50" alt="Luxury Sunglasses" /></td>
                       <td>Luxury Sunglasses</td>
                       <td>Eyewear</td>
                       <td>$1,500</td>
@@ -158,7 +158,7 @@ function ViewProducts() {
 
                     <tr>
                       <td>107</td>
-                      <td><img src={perfume} width="50" /></td>
+                      <td><img src={perfume} width="50" alt="Perfume Set" /></td>
                       <td>Perfume Set</td>
                       <td>Fragrance</td>
                       <td>$8,500</td>
@@ -174,7 +174,7 @@ function ViewProducts() {
 
                     <tr>
                       <td>108</td>
-                      <td><img src={pro4} width="50" /></td>
+                      <td><img src={pro4} width="50" alt="Makeup Kit" /></td>
                       <td>Makeup Kit</td>
                       <td>Makeups</td>
                       <td>$1,200</td>
@@ -190,7 +190,7 @@ function ViewProducts() {
 
                     <tr>
                       <td>109</td>
-                      <td><img src={h4} width="50" /></td>
+                      <td><img src={h4} width="50" alt="Evening Coat" /></td>
                       <td>Evening Coat</td>
                       <td>Fashion</td>
                       <td>$6,000</td>
@@ -206,7 +206,7 @@ function ViewProducts() {
 
                     <tr>
                       <td>110</td>
-                      <td><img src={dia1} width="50"/></td>
+                      <td><img src={dia1} width="50" alt="Diamond Ring" /></td>
                       <td>Diamond Ring</td>
                       <td>High Jewellery</td>
                       <td>$2,000</td>
@@ -222,7 +222,7 @@ function ViewProducts() {
 
                     <tr>
                       <td>111</td>
-                      <td><img src={skin} width="50" /></td>
+                      <td><img src={skin} width="50" alt="Sun Cream" /></td>
                       <td>Sun cream</td>
                       <td>Skincare</td>
                       <td>$9,000</td>
@@ -238,7 +238,7 @@ function ViewProducts() {
 
                     <tr>
                       <td>112</td>
-                      <td><img src={dia2}width="50" /></td>
+                      <td><img src={dia2} width="50" alt="Diamond Necklace" /></td>
                       <td>Diamond Necklace</td>
                       <td>Fine Jewellery</td>
                       <td>₹4,500</td>
